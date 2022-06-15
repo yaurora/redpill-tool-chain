@@ -58,6 +58,7 @@ jobs:
           rm -rf cache/*.pat
           rm -rf cache/*.org
           rm -rf docker/downloads/*.txz
+          rm -rf custom/extensions
 
       - name: 准备构建环境
         run: |
